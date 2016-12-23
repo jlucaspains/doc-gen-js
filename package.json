@@ -1,0 +1,22 @@
+{
+  "name": "doc-gen-js",
+  "version": "0.0.1",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "postinstall": "typings install",
+    "customtyping": "typings install tinycme -G --save",
+    "build": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^2.0.0",
+    "typings": "^1.3.0",
+    "tslint": "^3.13.0"
+  }
+}
