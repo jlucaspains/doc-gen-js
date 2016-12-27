@@ -49,3 +49,4 @@ test/*spec.js*
 js/labelControls/*.js*
 js/tools/*.js*
 js/*.js*
+npm-debug.log
