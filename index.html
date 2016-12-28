@@ -4,14 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Preview TinyMCE variable plugin</title>
+    <title>Templated documents</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script src="node_modules/mustache/mustache.js"></script>
     <script src="src/plugins/variable/plugin.js"></script>
+    <script src="src/plugins/customPreview/plugin.js"></script>
 
     <script>
         tinymce.init({
@@ -20,13 +22,13 @@
             theme: 'modern',
             content_css: ['src/plugins/variable/plugin.css', '//www.tinymce.com/css/codepen.min.css', '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',],
             plugins: [
-                'advlist autolink lists image charmap print preview hr pagebreak',
+                'advlist autolink lists image charmap print custompreview hr pagebreak',
                 'searchreplace wordcount visualblocks visualchars code fullscreen',
                 'nonbreaking save table contextmenu directionality',
                 'paste textcolor colorpicker textpattern imagetools variable code'
             ],
             toolbar1: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | image',
-            toolbar2: 'print preview | forecolor backcolor | variable',
+            toolbar2: 'print custompreview | forecolor backcolor | variable',
             image_advtab: true,
             variable_mapper: {
                 username: 'Username',
