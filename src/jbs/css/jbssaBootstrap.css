@@ -1,0 +1,111 @@
+body { overflow-y: scroll; padding-top: 50px; padding-bottom: 20px;}
+.body-content { padding-left: 15px; padding-right: 15px; }
+body.modal-open .navbar-fixed-top, body.modal-open .toast-top-right { margin-right: 17px !important; }
+h4.grupSubTitle { margin-top: 18px; margin-bottom: 15px; }
+
+/*#################      HEADER MENU    #################*/
+#headerMenu { background: none; background-color: #44749D; background-color: rgba(68, 116, 157, 0.9); border-bottom-color: #44749D; }
+#headerMenu .navbar-nav > li { -webkit-transition: background 100ms ease; -moz-transition: background 100ms ease; -ms-transition: background 100ms ease; -o-transition: background 100ms ease; transition: background 100ms ease; }
+#headerMenu .navbar-nav > li > a { color: white; }
+#headerMenu .navbar-nav > li:hover { background-color: #255a88; }
+#headerMenu .navbar-nav > .active > a, #headerMenu .navbar-nav > .open > a { background: none !important; background-color: #255a88 !important; }
+#headerMenu .navbar-brand { color: white; }
+#headerMenu .navbar-toggle { border-color: white; }
+#headerMenu .navbar-toggle .icon-bar { background-color: white; }
+#headerMenu .navbar-toggle:focus, #headerMenu .navbar-toggle:hover { background-color: #255a88; }
+
+@media (max-width: 767px) {
+    #headerMenu .navbar-nav .open .dropdown-menu > li > a { color: #d4d4d4; }
+    #headerMenu .navbar-nav .open .dropdown-menu > li > a:focus, #headerMenu .navbar-nav .open .dropdown-menu > li > a:hover { color: white; background-color: transparent; }
+    #headerMenu .navbar-nav .open .dropdown-menu .dropdown-header, #headerMenu .navbar-nav .open .dropdown-menu > li > a { padding: 7.5px 15px 7.5px 25px; }
+}
+
+/*#################      SUB MENU      #################*/
+.nav-submenu { margin-bottom: 15px; background-color: #f7f7f7; }
+.nav-submenu > li > button { position: relative; display: block; padding: 9px 15px; }
+.nav-submenu > li > button:hover, .nav-submenu > li > button:focus { text-decoration: none; background-color: #eeeeee; }
+.nav-submenu > li > .btn { padding: 10px 15px; -webkit-border-radius: 0; border-radius: 0; }
+
+.navbar-filter .navbar-brand, .navbar-filter .navbar-brand:hover { color: #337ab7; }
+.navbar-filter .navbar-form .navbar-text { margin-top: 8px; margin-bottom: 0; }
+.navbar-filter .navbar-form .input-group.date { width: 170px; }
+
+@media (max-width: 768px) {
+    .navbar-filter .navbar-brand { width: 100%; padding-left: 0; }
+    .navbar-filter .navbar-form { border: none; }
+}
+
+.filter-collapse { background-color: #f8f8f8; -ms-border-radius: 4px; border-radius: 4px; position: relative; min-height: 50px; margin-bottom: 20px; border: 1px solid #e7e7e7; }
+.filter-collapse .filter-brand { display: block; height: 50px; padding: 15px 15px; font-size: 18px; line-height: 20px; padding-left: 0; width: 100%; }
+/*#################      DROPDOWN MENU      #################*/
+.dropdown-menu { padding-top: 0; padding-bottom: 0; }
+.dropdown-menu > li > a { padding: 8px 20px; }
+.dropdown-menu .divider { margin: 0 0; }
+/*#################      DROPDOWN SUBMENU      #################*/
+.dropdown-submenu a { cursor: pointer; }
+
+@media (min-width: 768px) {
+    .dropdown-submenu .dropdown-menu { top: 6px !important; }
+}
+
+/*#################      SWITCH      #################*/
+.switch-control { visibility: hidden; }
+.bootstrap-switch { margin-top: 4px; margin-bottom: 4px; }
+.form-group .bootstrap-switch { display: block; }
+/*#################      MODAL      #################*/
+
+.jbsModal .modal-dialog .modal-content .modal-footer { padding: 13px 20px 13px; background-color: #f9f9f9; border-top: 1px solid #e5e5e5; }
+.jbsModal .modal-dialog .modal-header { background-color: #F9F9F9; color: #615C5C; padding: 15px 15px 9px 15px; }
+.jbsModal .modal-dialog .modal-header h4 { font-weight: normal !important; font-size: 18px !important; }
+.jbsModal .modal-dialog .modal-header .close { color: black; opacity: 0.5; filter: alpha(opacity=50); border-bottom: none; margin-top: 0; margin-right: 3px; }
+.jbsModal .modal-dialog .modal-header .close:hover, .lmModal .modal-dialog .modal-header .close:focus { opacity: 0.9; filter: alpha(opacity=90); }
+.jbsModal .modal-dialog .modal-footer .dropup { display: inline-block; }
+
+@media (max-width: 768px) {
+    .jbsModal .modal-dialog { margin: 0 !important; width: 100% !important; }
+}
+
+/*#################      TABLE      #################*/
+.table-100 { min-width: 100%; }
+.table tbody tr td { vertical-align: middle; }
+.table th.dt-center, .table td.dt-center { text-align: center; }
+
+.table-container { position: relative; }
+.table-container .row { margin-left: 0; margin-right: 0; }
+.table-container .tableRow { min-height: 91px; }
+.table-container.withoutFirstRow .dataTables_wrapper .row:first-child { display: none; }
+.table-container.withoutFirstRow .table { margin-top: 0 !important; }
+
+.dataTables_wrapper .table { margin-bottom: 10px !important; }
+.dataTables_wrapper .dataTables_filter { float: right; margin-top: 8px; }
+.dataTables_wrapper .dataTables_filter > label { margin-bottom: 0; font-size: 12px; }
+.dataTables_wrapper .dataTables_filter > label > input { margin-left: 5px; }
+.dataTables_wrapper .pagination { float: right; margin: 2px 0; }
+.dataTables_wrapper .dt-buttons { float: right; margin: 2px 5px 0 0; }
+.dataTables_wrapper .dt-buttons .dt-button { position: relative; float: left; padding: 6px 12px; margin-left: -1px; line-height: 1.42857143; color: #337ab7; text-decoration: none; background-color: #fff; border: 1px solid #ddd; cursor: pointer; }
+.dataTables_wrapper .dt-buttons .dt-button:hover { color: #fff; background-color: #337ab7; border-color: #337ab7; }
+
+table.dataTable tbody tr.selected { background-color: #CDDA70; color: #444444; }
+
+/*####################### EXPORT #######################*/
+div.dt-button-info { border: solid 1px #ccc !important; }
+div.dt-buttons a i { color: #7a7a7d; }
+div.dt-buttons a:hover i { color: #337ab7; }
+
+/*####################### TAB #######################*/
+.tab-pane-padding { padding-top: 15px; }
+
+@media (max-width: 768px) {
+    .table-container .row { height: 37px; margin-bottom: 5px !important; }
+    .table-container .row > div:last-child { position: absolute; right: 10px; padding-left: 0; }
+    .dataTables_wrapper .dt-buttons { float: right; margin: 2px 5px 0 0; display: inline-block; width: initial; }
+}
+
+@media (min-width: 769px) {
+    .table-container .row { min-height: 37px; margin-bottom: 5px !important; }
+    .table-container .row > div:first-child { position: absolute; left: 0; padding-left: 0; }
+    .table-container .row > div:last-child { position: absolute; right: 0; padding-right: 0; }
+}
+
+/*####################### VALIDATIONS ##################*/
+.field-validation-error { display: block; margin-top: 5px; color: #a94442; }

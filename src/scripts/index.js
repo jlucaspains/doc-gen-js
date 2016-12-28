@@ -16,28 +16,9 @@ var DocGen;
                     'nonbreaking save table contextmenu directionality',
                     'paste textcolor colorpicker textpattern imagetools variable code'
                 ],
-                toolbar1: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | image | print custompreview | forecolor backcolor | variable',
-                toolbar2: 'sourceUrl',
+                toolbar1: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | image | print | forecolor backcolor | variable',
+                toolbar2: 'sourceUrl custompreview',
                 image_advtab: true,
-                // variable_mapper: {
-                //     username: 'Username',
-                //     phone: 'Phone',
-                //     community_name: 'Community name',
-                //     email: 'Email address',
-                //     sender: 'Sender name',
-                //     account_id: 'Account ID'
-                // },
-                setup: function (ed) {
-                    //(window as any).tester = ed;
-                    // ed.addButton('variable', {
-                    //     title: 'Variable',
-                    //     text: 'Insert variable',
-                    //     onclick: function () {
-                    //         ed.plugins.variable.addVariable('account_id');
-                    //     }
-                    // });
-                    //ed.on('variableClick', function (e) { console.log('click', e); });
-                },
             });
         };
         return Index;

@@ -17,8 +17,8 @@ module DocGen {
                     'nonbreaking save table contextmenu directionality',
                     'paste textcolor colorpicker textpattern imagetools variable code'
                 ],
-                toolbar1: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | image | print custompreview | forecolor backcolor | variable',
-                toolbar2: 'sourceUrl',
+                toolbar1: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | image | print | forecolor backcolor | variable',
+                toolbar2: 'sourceUrl custompreview',
                 image_advtab: true,
                 // variable_mapper: {
                 //     username: 'Username',
@@ -28,17 +28,22 @@ module DocGen {
                 //     sender: 'Sender name',
                 //     account_id: 'Account ID'
                 // },
-                setup: function (ed) {
-                    //(window as any).tester = ed;
-                    // ed.addButton('variable', {
-                    //     title: 'Variable',
-                    //     text: 'Insert variable',
-                    //     onclick: function () {
-                    //         ed.plugins.variable.addVariable('account_id');
-                    //     }
-                    // });
-                    //ed.on('variableClick', function (e) { console.log('click', e); });
-                },
+                // setup: function (ed) {
+                //     ed.execCommand('mceFullScreen');
+                //     // ed.on('load',function(e){
+                //     //     ed.execCommand('fullscreen');
+                //     // });
+
+                //     // (window as any).tester = ed;
+                //     // ed.addButton('variable', {
+                //     //     title: 'Variable',
+                //     //     text: 'Insert variable',
+                //     //     onclick: function () {
+                //     //         ed.plugins.variable.addVariable('account_id');
+                //     //     }
+                //     // });
+                //     // ed.on('variableClick', function (e) { console.log('click', e); });
+                // },
             });
         }
 

@@ -11,6 +11,7 @@
     "typings": "typings"
   },
   "dependencies": {
+    "jquery": "^3.1.1",
     "mustache": "^2.3.0",
     "bootstrap": "^3.3.7"
   },
