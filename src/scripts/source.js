@@ -2,8 +2,8 @@ var DocGen;
 (function (DocGen) {
     var JbsModal = Core.Web.JbsModal;
     var Source = (function () {
-        function Source(sourceUrl) {
-            this.sourceUrl = sourceUrl;
+        function Source() {
+            this.sourceUrl = '';
             this.sourceUrl = 'https://raw.githubusercontent.com/jlucaspains/doc-gen-js/master/example.json';
             this.changeSourceUrlModal = new JbsModal("changeSourceUrlModal", "Change Source Url", "500", true);
             this.bindingsElementsFromDom();

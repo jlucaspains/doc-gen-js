@@ -3,8 +3,9 @@ module DocGen {
     export class Source {
 
         private changeSourceUrlModal: JbsModal;
+        public sourceUrl: string = '';
 
-        constructor(public sourceUrl: string) {
+        constructor() {
             this.sourceUrl = 'https://raw.githubusercontent.com/jlucaspains/doc-gen-js/master/example.json';
             this.changeSourceUrlModal = new JbsModal("changeSourceUrlModal", "Change Source Url", "500", true);
             this.bindingsElementsFromDom();

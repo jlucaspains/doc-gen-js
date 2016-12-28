@@ -7,7 +7,7 @@ module DocGen {
         private previewModal: JbsModal;
 
         constructor(private editor: any, private sandbox: boolean) {
-            this.previewModal = new JbsModal("previewModal", "Preview", "900", true);
+            this.previewModal = new JbsModal("previewModal", "Preview", "1400", true);
         }
 
         public open(sourceUrl: string): void {

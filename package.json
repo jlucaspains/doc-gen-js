@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "lite": "lite-server",
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "postinstall": "typings install",
     "customtyping": "typings install tinycme -G --save",
     "build": "tsc",

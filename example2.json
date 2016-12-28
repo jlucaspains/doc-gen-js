@@ -1,0 +1,59 @@
+{
+    "orderNo": "0022958137",
+    "shipDate": "12/17/2016 07:40",
+    "bLNo": "0822304200",
+    "customerPO": "713893",
+    "orderDate": "12/13/2016",
+    "deliveryDate": "12/22/2016",
+    "loadNo": "0003264225",
+    "xDockNo": "0958137",
+    "shipTo": "AFFILIATED FOODS- SOUTH WAREHOUSE - \n 7600 S FM 1541 \n MARILLO, TX - 79118",
+    "shipFrom": "FR04 \n FR04 \n DeQueen, AR Fresh \n DeQueen, AR -",
+    "itens": [
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped ": "78 CS",
+            "weightShipped ": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped ": "78 CS",
+            "weightShipped ": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped ": "78 CS",
+            "weightShipped ": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped ": "78 CS",
+            "weightShipped ": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped ": "78 CS",
+            "weightShipped ": "4529.5 LB"
+        }
+    ]
+}

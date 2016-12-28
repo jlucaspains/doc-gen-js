@@ -6,7 +6,7 @@ var DocGen;
         function Preview(editor, sandbox) {
             this.editor = editor;
             this.sandbox = sandbox;
-            this.previewModal = new JbsModal("previewModal", "Preview", "900", true);
+            this.previewModal = new JbsModal("previewModal", "Preview", "1400", true);
         }
         Preview.prototype.open = function (sourceUrl) {
             var _this = this;
