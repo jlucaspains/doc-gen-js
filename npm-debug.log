@@ -1,9 +1,9 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe',
-1 verbose cli   'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Luciano.Meireles\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install' ]
-2 info using npm@3.3.4
-3 info using node@v5.4.1
+2 info using npm@3.10.9
+3 info using node@v7.0.0
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
 6 silly install readLocalPackageData
@@ -23,145 +23,234 @@
 20 silly mapToRegistry name concurrently
 21 silly mapToRegistry using default registry
 22 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
-23 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
-24 silly fetchNamedPackageData lite-server
-25 silly mapToRegistry name lite-server
-26 silly mapToRegistry using default registry
-27 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
-28 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
-29 silly fetchNamedPackageData typescript
-30 silly mapToRegistry name typescript
-31 silly mapToRegistry using default registry
-32 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
-33 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
-34 silly fetchNamedPackageData typings
-35 silly mapToRegistry name typings
-36 silly mapToRegistry using default registry
-37 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
-38 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
-39 silly fetchNamedPackageData tslint
-40 silly mapToRegistry name tslint
-41 silly mapToRegistry using default registry
-42 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
-43 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
-44 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
-45 verbose request no auth needed
-46 info attempt registry request try #1 at 4:43:21 PM
-47 verbose request id a6e42f25797d8f72
-48 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
-49 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'concurrently',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'concurrently',
+23 silly mapToRegistry   name: 'concurrently',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
+25 silly fetchNamedPackageData lite-server
+26 silly mapToRegistry name lite-server
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'lite-server',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'lite-server',
+29 silly mapToRegistry   name: 'lite-server',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
+31 silly fetchNamedPackageData typescript
+32 silly mapToRegistry name typescript
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'typescript',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'typescript',
+35 silly mapToRegistry   name: 'typescript',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
+37 silly fetchNamedPackageData typings
+38 silly mapToRegistry name typings
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'typings',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'typings',
+41 silly mapToRegistry   name: 'typings',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
+43 silly fetchNamedPackageData tslint
+44 silly mapToRegistry name tslint
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://ustxri00app22i.global.corp.prod/npm/WebScripts
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'tslint',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'tslint',
+47 silly mapToRegistry   name: 'tslint',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
+49 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
 50 verbose request no auth needed
-51 info attempt registry request try #1 at 4:43:21 PM
-52 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
-53 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
-54 verbose request no auth needed
-55 info attempt registry request try #1 at 4:43:21 PM
-56 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
-57 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
-58 verbose request no auth needed
-59 info attempt registry request try #1 at 4:43:21 PM
-60 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
-61 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
-62 verbose request no auth needed
-63 info attempt registry request try #1 at 4:43:21 PM
-64 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
-65 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
-66 verbose headers {}
-67 silly get cb [ 404, {} ]
-68 silly fetchPackageMetaData Error: 404 Not Found
-68 silly fetchPackageMetaData     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
-68 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:215:9)
-68 silly fetchPackageMetaData     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
-68 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
-68 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
-68 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
-68 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
-68 silly fetchPackageMetaData     at emitOne (events.js:82:20)
-68 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
-68 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
-68 silly fetchPackageMetaData  error for concurrently@^2.0.0 { [Error: 404 Not Found] statusCode: 404, code: 'E404' }
-69 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
-70 verbose headers {}
-71 silly get cb [ 404, {} ]
-72 silly fetchPackageMetaData Error: 404 Not Found
-72 silly fetchPackageMetaData     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
-72 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:215:9)
-72 silly fetchPackageMetaData     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
-72 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
-72 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
-72 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
-72 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
-72 silly fetchPackageMetaData     at emitOne (events.js:82:20)
-72 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
-72 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
-72 silly fetchPackageMetaData  error for lite-server@^2.2.0 { [Error: 404 Not Found] statusCode: 404, code: 'E404' }
-73 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
-74 verbose headers {}
-75 silly get cb [ 404, {} ]
-76 silly fetchPackageMetaData Error: 404 Not Found
-76 silly fetchPackageMetaData     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
-76 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:215:9)
-76 silly fetchPackageMetaData     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
-76 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
-76 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
-76 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
-76 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
-76 silly fetchPackageMetaData     at emitOne (events.js:82:20)
-76 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
-76 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
-76 silly fetchPackageMetaData  error for typescript@^2.0.0 { [Error: 404 Not Found] statusCode: 404, code: 'E404' }
-77 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
-78 verbose headers {}
-79 silly get cb [ 404, {} ]
-80 silly fetchPackageMetaData Error: 404 Not Found
-80 silly fetchPackageMetaData     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
-80 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:215:9)
-80 silly fetchPackageMetaData     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
-80 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
-80 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
-80 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
-80 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
-80 silly fetchPackageMetaData     at emitOne (events.js:82:20)
-80 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
-80 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
-80 silly fetchPackageMetaData  error for typings@^1.3.0 { [Error: 404 Not Found] statusCode: 404, code: 'E404' }
-81 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
-82 verbose headers {}
-83 silly get cb [ 404, {} ]
-84 silly fetchPackageMetaData Error: 404 Not Found
-84 silly fetchPackageMetaData     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
-84 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:215:9)
-84 silly fetchPackageMetaData     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
-84 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
-84 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
-84 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
-84 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
-84 silly fetchPackageMetaData     at emitOne (events.js:82:20)
-84 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
-84 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
-84 silly fetchPackageMetaData  error for tslint@^3.13.0 { [Error: 404 Not Found] statusCode: 404, code: 'E404' }
-85 silly rollbackFailedOptional Starting
-86 silly rollbackFailedOptional Finishing
-87 silly runTopLevelLifecycles Starting
-88 silly runTopLevelLifecycles Finishing
-89 silly install printInstalled
-90 verbose stack Error: 404 Not Found
-90 verbose stack     at makeError (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:264:12)
-90 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:215:9)
-90 verbose stack     at Request._callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\npm-registry-client\lib\request.js:172:14)
-90 verbose stack     at Request.self.callback (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:344:22)
-90 verbose stack     at emitTwo (events.js:87:13)
-90 verbose stack     at Request.emit (events.js:172:7)
-90 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1239:14)
-90 verbose stack     at emitOne (events.js:82:20)
-90 verbose stack     at Request.emit (events.js:169:7)
-90 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\Microsoft Visual Studio 14.0\Web\External\node_modules\request\request.js:1187:12)
-91 verbose statusCode 404
-92 verbose cwd C:\Workspace\github\doc-gen-js
-93 error Windows_NT 10.0.14393
-94 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
-95 error node v5.4.1
-96 error npm  v3.3.4
-97 error code E404
-98 error 404 Not Found
-99 verbose exit [ 1, true ]
+51 info attempt registry request try #1 at 7:42:24 PM
+52 verbose request id 7c3f485ddb913bd1
+53 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
+54 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 7:42:24 PM
+57 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
+58 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 7:42:24 PM
+61 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
+62 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 7:42:24 PM
+65 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
+66 verbose request uri http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 7:42:24 PM
+69 http request GET http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
+70 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/concurrently
+71 verbose headers {}
+72 silly get cb [ 404, {} ]
+73 silly fetchPackageMetaData Error: 404 Not Found
+73 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+73 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+73 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+73 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+73 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+73 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+73 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+73 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+73 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+73 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+73 silly fetchPackageMetaData  error for concurrently@^2.0.0 { Error: 404 Not Found
+73 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+73 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+73 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+73 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+73 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+73 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+73 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+73 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+73 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+73 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12) statusCode: 404, code: 'E404' }
+74 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/lite-server
+75 verbose headers {}
+76 silly get cb [ 404, {} ]
+77 silly fetchPackageMetaData Error: 404 Not Found
+77 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+77 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+77 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+77 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+77 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+77 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+77 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+77 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+77 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+77 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+77 silly fetchPackageMetaData  error for lite-server@^2.2.0 { Error: 404 Not Found
+77 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+77 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+77 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+77 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+77 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+77 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+77 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+77 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+77 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+77 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12) statusCode: 404, code: 'E404' }
+78 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/typescript
+79 verbose headers {}
+80 silly get cb [ 404, {} ]
+81 silly fetchPackageMetaData Error: 404 Not Found
+81 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+81 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+81 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+81 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+81 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+81 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+81 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+81 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+81 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+81 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+81 silly fetchPackageMetaData  error for typescript@^2.0.0 { Error: 404 Not Found
+81 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+81 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+81 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+81 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+81 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+81 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+81 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+81 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+81 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+81 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12) statusCode: 404, code: 'E404' }
+82 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/typings
+83 verbose headers {}
+84 silly get cb [ 404, {} ]
+85 silly fetchPackageMetaData Error: 404 Not Found
+85 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+85 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+85 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+85 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+85 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+85 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+85 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+85 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+85 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+85 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+85 silly fetchPackageMetaData  error for typings@^1.3.0 { Error: 404 Not Found
+85 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+85 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+85 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+85 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+85 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+85 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+85 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+85 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+85 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+85 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12) statusCode: 404, code: 'E404' }
+86 http 404 http://ustxri00app22i.global.corp.prod/npm/WebScripts/tslint
+87 verbose headers {}
+88 silly get cb [ 404, {} ]
+89 silly fetchPackageMetaData Error: 404 Not Found
+89 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+89 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+89 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+89 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+89 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+89 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+89 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+89 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+89 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+89 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+89 silly fetchPackageMetaData  error for tslint@^3.13.0 { Error: 404 Not Found
+89 silly fetchPackageMetaData     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+89 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+89 silly fetchPackageMetaData     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+89 silly fetchPackageMetaData     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+89 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+89 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+89 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+89 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+89 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+89 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12) statusCode: 404, code: 'E404' }
+90 silly rollbackFailedOptional Starting
+91 silly rollbackFailedOptional Finishing
+92 silly runTopLevelLifecycles Finishing
+93 silly install printInstalled
+94 verbose stack Error: 404 Not Found
+94 verbose stack     at makeError (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+94 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:253:9)
+94 verbose stack     at Request._callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+94 verbose stack     at Request.self.callback (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:187:22)
+94 verbose stack     at emitTwo (events.js:106:13)
+94 verbose stack     at Request.emit (events.js:191:7)
+94 verbose stack     at Request.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:1048:10)
+94 verbose stack     at emitOne (events.js:96:13)
+94 verbose stack     at Request.emit (events.js:188:7)
+94 verbose stack     at IncomingMessage.<anonymous> (C:\Users\Luciano.Meireles\AppData\Roaming\npm\node_modules\npm\node_modules\request\request.js:969:12)
+95 verbose statusCode 404
+96 verbose cwd C:\Workspace\github\doc-gen-js
+97 error Windows_NT 10.0.14393
+98 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Luciano.Meireles\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+99 error node v7.0.0
+100 error npm  v3.10.9
+101 error code E404
+102 error 404 Not Found
+103 verbose exit [ 1, true ]
