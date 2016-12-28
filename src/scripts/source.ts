@@ -6,7 +6,7 @@ module DocGen {
         public sourceUrl: string = '';
 
         constructor() {
-            this.sourceUrl = 'https://raw.githubusercontent.com/jlucaspains/doc-gen-js/master/example.json';
+            this.sourceUrl = 'https://raw.githubusercontent.com/jlucaspains/doc-gen-js/master/example2.json';
             this.changeSourceUrlModal = new JbsModal("changeSourceUrlModal", "Change Source Url", "500", true);
             this.bindingsElementsFromDom();
         }
