@@ -7,53 +7,22 @@
     <title>Templated documents</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 
+    <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+</head>
 <body>
+
+    <textarea>Easy (and free!) You should check out our premium features. (luciano's teste)</textarea>
+
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
     <script src="node_modules/mustache/mustache.js"></script>
     <script src="src/plugins/variable/plugin.js"></script>
     <script src="src/plugins/customPreview/plugin.js"></script>
-
-    <script>
-        tinymce.init({
-            selector: 'textarea',
-            height: 500,
-            theme: 'modern',
-            content_css: ['src/plugins/variable/plugin.css', '//www.tinymce.com/css/codepen.min.css', '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',],
-            plugins: [
-                'advlist autolink lists image charmap print custompreview hr pagebreak',
-                'searchreplace wordcount visualblocks visualchars code fullscreen',
-                'nonbreaking save table contextmenu directionality',
-                'paste textcolor colorpicker textpattern imagetools variable code'
-            ],
-            toolbar1: 'undo redo | insert | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | image',
-            toolbar2: 'print custompreview | forecolor backcolor | variable',
-            image_advtab: true,
-            variable_mapper: {
-                username: 'Username',
-                phone: 'Phone',
-                community_name: 'Community name',
-                email: 'Email address',
-                sender: 'Sender name',
-                account_id: 'Account ID'
-            },
-            setup: function (ed) {
-                window.tester = ed;
-                ed.addButton('variable', {
-                    title: 'Variable',
-                    text: 'Insert variable',
-                    onclick: function () {
-                        ed.plugins.variable.addVariable('account_id');
-                    }
-                });
-                ed.on('variableClick', function (e) {
-                    console.log('click', e);
-                });
-            },
-        });
+    <script src="src/scripts/index.js"></script>
+    <script src="src/scripts/source.js"></script>
+    <script>         
+        new DocGen.Index();
     </script>
-<textarea>Easy (and free!) You should check out our premium features. (luciano's teste)</textarea>
 </body>
 
 </html>

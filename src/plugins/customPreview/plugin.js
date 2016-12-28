@@ -10,10 +10,16 @@
 
 /*global tinymce:true */
 
-tinymce.PluginManager.add('custompreview', function(editor) {
+tinymce.PluginManager.add('custompreview', function (editor) {
+	var source = new DocGen.Source();
 	var settings = editor.settings, sandbox = !tinymce.Env.ie;
 
-	editor.addCommand('mcepreview', function() {
+	editor.addButton('custompreview', { title: 'Preview', cmd: 'mcepreview' });
+	editor.addButton('sourceUrl', { title: 'Source Url', cmd: 'changeSourceUrl' });
+	editor.addMenuItem('custompreview', { text: 'Preview', cmd: 'mcepreview', context: 'view' });
+
+	editor.addCommand('changeSourceUrl', function(){ source.openModal(); });
+	editor.addCommand('mcepreview', function () {
 		editor.windowManager.open({
 			title: 'Preview',
 			width: parseInt(editor.getParam("plugin_preview_width", "650"), 10),
@@ -21,16 +27,16 @@ tinymce.PluginManager.add('custompreview', function(editor) {
 			html: '<iframe src="javascript:\'\'" frameborder="0"' + (sandbox ? ' sandbox="allow-scripts"' : '') + '></iframe>',
 			buttons: {
 				text: 'Close',
-				onclick: function() {
+				onclick: function () {
 					this.parent().parent().close();
 				}
 			},
-			onPostRender: function() {
+			onPostRender: function () {
 				var previewHtml, headHtml = '';
 
 				headHtml += '<base href="' + editor.documentBaseURI.getURI() + '">';
 
-				tinymce.each(editor.contentCSS, function(url) {
+				tinymce.each(editor.contentCSS, function (url) {
 					headHtml += '<link type="text/css" rel="stylesheet" href="' + editor.documentBaseURI.toAbsolute(url) + '">';
 				});
 
@@ -48,13 +54,13 @@ tinymce.PluginManager.add('custompreview', function(editor) {
 
 				var preventClicksOnLinksScript = (
 					'<script>' +
-						'document.addEventListener && document.addEventListener("click", function(e) {' +
-							'for (var elm = e.target; elm; elm = elm.parentNode) {' +
-								'if (elm.nodeName === "A") {' +
-									'e.preventDefault();' +
-								'}' +
-							'}' +
-						'}, false);' +
+					'document.addEventListener && document.addEventListener("click", function(e) {' +
+					'for (var elm = e.target; elm; elm = elm.parentNode) {' +
+					'if (elm.nodeName === "A") {' +
+					'e.preventDefault();' +
+					'}' +
+					'}' +
+					'}, false);' +
 					'</script> '
 				);
 
@@ -64,11 +70,11 @@ tinymce.PluginManager.add('custompreview', function(editor) {
 					'<!DOCTYPE html>' +
 					'<html>' +
 					'<head>' +
-						headHtml +
+					headHtml +
 					'</head>' +
 					'<body id="' + bodyId + '" class="mce-content-body ' + bodyClass + '"' + dirAttr + '>' +
-						Mustache.to_html(editor.getContent(),{account_id: 'lpains'}) +
-						preventClicksOnLinksScript +
+					Mustache.to_html(editor.getContent(), { account_id: 'lpains' }) +
+					preventClicksOnLinksScript +
 					'</body>' +
 					'</html>'
 				);
@@ -86,16 +92,5 @@ tinymce.PluginManager.add('custompreview', function(editor) {
 				}
 			}
 		});
-	});
-
-	editor.addButton('custompreview', {
-		title: 'custompreview',
-		cmd: 'mcepreview'
-	});
-
-	editor.addMenuItem('custompreview', {
-		text: 'preview',
-		cmd: 'mcepreview',
-		context: 'view'
 	});
 });

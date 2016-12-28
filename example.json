@@ -1,0 +1,66 @@
+{
+    "id": "9e97d9ac115e58fcb7ab",
+    "definition_id": "cdd0b9bb266e8f3f2de405f6c1a2b23e",
+    "name": "job-estimation-test",
+    "start": 1325376001,
+    "end": 1325894401,
+    "created_at": 1363271961,
+    "status": "running",
+    "progress": 15,
+    "sources": [
+        "twitter"
+    ],
+    "sample": 100,
+    "chunks": [
+        {
+            "status": "succeeded",
+            "progress": 100,
+            "start_time": 1325376001,
+            "end_time": 1325462400,
+            "estimated_completion": 1363274434
+        },
+        {
+            "status": "running",
+            "progress": 5,
+            "start_time": 1325462400,
+            "end_time": 1325548800,
+            "estimated_completion": 1363277434
+        },
+        {
+            "status": "init",
+            "progress": 0,
+            "start_time": 1325548800,
+            "end_time": 1325635200,
+            "estimated_completion": 1363285834
+        },
+        {
+            "status": "init",
+            "progress": 0,
+            "start_time": 1325635200,
+            "end_time": 1325721600,
+            "estimated_completion": 1363279834
+        },
+        {
+            "status": "init",
+            "progress": 0,
+            "start_time": 1325721600,
+            "end_time": 1325808000,
+            "estimated_completion": 1363282234
+        },
+        {
+            "status": "init",
+            "progress": 0,
+            "start_time": 1325808000,
+            "end_time": 1325894400,
+            "estimated_completion": 1363284034
+        },
+        {
+            "status": "init",
+            "progress": 0,
+            "start_time": 1325894400,
+            "end_time": 1325894401,
+            "estimated_completion": 1363287634
+        }
+    ],
+    "estimated_completion": 1363287634
+}
