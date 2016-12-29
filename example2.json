@@ -9,7 +9,262 @@
     "xDockNo": "0958137",
     "shipTo": "AFFILIATED FOODS- SOUTH WAREHOUSE - \n 7600 S FM 1541 \n MARILLO, TX - 79118",
     "shipFrom": "FR04 \n FR04 \n DeQueen, AR Fresh \n DeQueen, AR -",
+    "totalQuantity": " 750 CS",
+    "totalShipped": " 41144.85",
+    //"printTime": function(){ return data.toLocaleString(); }
     "itens": [
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
+        {
+            "materialNo": "000175829",
+            "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
+            "batchNo": "6349004000",
+            "useBy": "12/13/2016",
+            "date": "12/14/2016",
+            "quantityShipped": "78 CS",
+            "weightShipped": "4529.5 LB"
+        },
         {
             "materialNo": "000175829",
             "description": "CPOST MAR B/S BRST FIL CWT \n Customer Sku: 007563275829",
