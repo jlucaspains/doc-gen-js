@@ -9,9 +9,8 @@
     "xDockNo": "0958137",
     "shipTo": "AFFILIATED FOODS- SOUTH WAREHOUSE - \n 7600 S FM 1541 \n MARILLO, TX - 79118",
     "shipFrom": "FR04 \n FR04 \n DeQueen, AR Fresh \n DeQueen, AR -",
-    "totalQuantity": " 750 CS",
-    "totalShipped": " 41144.85",
-    //"printTime": function(){ return data.toLocaleString(); }
+    "totalQuantity": "750 CS",
+    "totalShipped": "41144.85",
     "itens": [
         {
             "materialNo": "000175829",
